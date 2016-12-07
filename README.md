@@ -7,6 +7,9 @@ This snippet allows you to verify user's mobile number using AUTHY. You need to 
 **Server Information:**<br>
     Node.js v6.2.0 (https://nodejs.org/en/)
 
+**Updating npm to latest version**<br>
+***npm install npm@latest -g***
+
 **Dependencies :**<br>
 1. npm install request<br>
 2. npm install httpdispatcher
