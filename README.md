@@ -5,7 +5,7 @@ This snippet allows you to verify user's mobile number using AUTHY. You need to 
 ![Preview](https://raw.githubusercontent.com/sreenivasR/AUTHY/master/authyDashboard.png)
 
 **Server Information:**<br>
-    Node.js v6.2.0
+    Node.js v6.2.0 (https://nodejs.org/en/)
 
 **Dependencies :**<br>
 1. npm install request<br>
