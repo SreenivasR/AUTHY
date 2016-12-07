@@ -43,7 +43,7 @@ This snippet allows you to verify user's mobile number using AUTHY. You need to 
 
 *Output for Valid code:*<br>
 ```
-  {"message":"Verification code is correct.","success”:true}
+    {"message":"Verification code is correct.","success”:true}
 ```
     
 *Output for Invalid code or retrying the same code for more than one time:*<br>
