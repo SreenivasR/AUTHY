@@ -40,13 +40,12 @@ This snippet allows you to verify user's mobile number using AUTHY. You need to 
 ***GET*** ```http://localhost:8922/verify?phone_number=1234567890&country_code=01&verification_code=XXZZ```
 
 **RESPONSE:**
-
+```
 *Output for Valid code:*<br>
-```
+
     {"message":"Verification code is correct.","success”:true}
-```
-    
+
 *Output for Invalid code or retrying the same code for more than one time:*<br>
-```
+
     {"message":"No pending verifications for +01 123-45-6789 found.”, "success":false, "errors":{"message":"No pending verifications for +01 123-45-6789 found."},"error_code":”60023”}
 ```
