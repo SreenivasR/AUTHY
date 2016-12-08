@@ -15,12 +15,12 @@ This snippet allows you to verify user's mobile number using AUTHY. You need to 
 2. npm install httpdispatcher
 
 **Using test environment:**<br>
-1 ) Navigate to the cloned folder.<br>
-2) Run using **node validate.js**.<br>
-3) You can now access the following URL http://localhost:8922 .
+1) Navigate to the cloned folder.<br>
+2) Run the code using the command **"node validate.js"**.<br>
+3) You can check the server status by visting the URL http://localhost:8922 .
 
 **Step 1: Get the verification code :**<br>
-    You will start the authentication process by sending an user's mobile number and his country(**ISD**) code to the server. Once this is done, the User will receive a text message with a verification code.
+    You will start the authentication process by sending an user's mobile number and his country(**ISD**) code to the server. Once this is done, user will receive a text message with a verification code.
 
 **REQUEST :**<br>
 
