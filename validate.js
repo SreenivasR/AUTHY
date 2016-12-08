@@ -16,7 +16,7 @@ var server = http.createServer(handleRequest);
 function handleRequest(request, response){
 	try {
 		if(request.url=="/"){
-			response.end("");
+			response.end("AUTHY SERVER RUNNING....");
 			return;
 		}
         //log the request on console
